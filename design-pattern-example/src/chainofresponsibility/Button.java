@@ -6,4 +6,8 @@ public class Button extends Widget {
         super(widget);
     }
 
+    public Button(Widget widget, String help) {
+        super(widget, help);
+    }
+
 }
